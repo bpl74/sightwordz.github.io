@@ -75,15 +75,12 @@ a {
   font-weight: 800;
 }
 
-.brand-mark {
+.brand-logo {
   width: 40px;
   height: 40px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  background: linear-gradient(135deg, #80b5ff, #4d8fff);
-  color: #fff;
-  box-shadow: 0 10px 25px rgba(63, 134, 255, 0.35);
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 10px 25px rgba(63, 134, 255, 0.25);
 }
 
 .brand-text {
