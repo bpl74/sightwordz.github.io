@@ -78,8 +78,21 @@ a {
 .brand-logo {
   width: 40px;
   height: 40px;
-  border-radius: 12px;
+  object-fit: cover;
+  border-radius: 10px;
   display: block;
+  box-shadow: 0 8px 20px rgba(63, 134, 255, 0.2);
+}
+
+.brand-mark {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--primary), var(--primary-deep));
+  color: #fff;
+  font-size: 1rem;
   box-shadow: 0 10px 25px rgba(63, 134, 255, 0.25);
 }
 
@@ -147,13 +160,15 @@ h3 {
 .site-footer p,
 .feature-card p,
 .mini-card p,
-.faq-list p {
+.faq-list p,
+.asset-note,
+.trust-bar span {
   color: var(--muted);
 }
 
 .hero-text {
   font-size: 1.12rem;
-  max-width: 58ch;
+  max-width: 520px;
   margin: 18px 0 0;
 }
 
@@ -255,13 +270,12 @@ h3 {
 
 .asset-note {
   font-size: 0.9rem;
-  color: var(--muted);
   margin-top: 14px;
   text-align: center;
 }
 
 .section {
-  padding: 90px 0;
+  padding: 60px 0;
 }
 
 .section-tight {
@@ -312,10 +326,6 @@ h3 {
   display: block;
   font-size: 1rem;
   margin-bottom: 6px;
-}
-
-.trust-bar span {
-  color: var(--muted);
 }
 
 .feature-grid,
@@ -479,8 +489,7 @@ h3 {
   .two-column,
   .feature-grid,
   .gallery-grid,
-  .trust-bar,
-  .cta-card {
+  .trust-bar {
     grid-template-columns: 1fr;
   }
 
@@ -553,9 +562,68 @@ h3 {
     padding: 72px 0;
   }
 
-  .trust-list li,
-  .button,
   .faq-list details {
     width: 100%;
   }
+
+  .hero-actions .button,
+  .cta-actions .button,
+  .trust-list li {
+    width: 100%;
+  }
+
+  .button.button-primary {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+
+  /* Privacy page cleanup */
+.privacy-page {
+  max-width: 860px;
+}
+
+.privacy-heading {
+  max-width: 760px;
+  margin-bottom: 28px;
+}
+
+.privacy-stack {
+  display: grid;
+  gap: 18px;
+}
+
+.privacy-card {
+  background: var(--surface);
+  border: 1px solid rgba(215, 228, 251, 0.96);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+  padding: 28px;
+}
+
+.privacy-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+}
+
+.privacy-card p {
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+
+.privacy-card ul {
+  margin: 0 0 14px;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.privacy-card li + li {
+  margin-top: 8px;
+}
+
+@media (max-width: 760px) {
+  .privacy-card {
+    padding: 22px;
+  }
+}
 }
