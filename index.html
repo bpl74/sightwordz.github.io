@@ -3,46 +3,294 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SightWordz | Simple sight word practice for growing readers</title>
-  <meta name="description" content="SightWordz helps parents support reading practice with simple, customizable sight word lists and calm daily routines." />
+  <title>My Sight Wordz | Simple Sight Word Practice for Growing Readers</title>
+  <meta name="description" content="My Sight Wordz is a clean, parent-friendly sight word app that helps kids practice reading with simple routines, custom word lists, and no ads or clutter." />
+  <meta name="keywords" content="sight words app, sight word practice, reading app for kids, kindergarten reading, first grade reading, custom sight word lists, homeschool reading app" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="BPL74" />
+  <link rel="canonical" href="https://sightwordz.github.io/" />
+
+  <meta property="og:title" content="My Sight Wordz | Simple Sight Word Practice for Growing Readers" />
+  <meta property="og:description" content="A calm, simple reading practice app with custom lists, clean design, and no ads." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://sightwordz.github.io/" />
+  <meta property="og:image" content="https://sightwordz.github.io/assets/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="My Sight Wordz" />
+  <meta name="twitter:description" content="Simple sight word practice for growing readers." />
+  <meta name="twitter:image" content="https://sightwordz.github.io/assets/og-image.png" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "My Sight Wordz",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS",
+      "description": "A simple sight word practice app for children and parents with clean routines and custom word lists.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "BPL74"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://sightwordz.github.io/"
+    }
+  </script>
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <p class="eyebrow">SightWordz</p>
-      <h1>Simple sight word practice for growing readers</h1>
-      <p class="subhead">
-        A clean, parent-friendly app for practicing sight words without clutter,
-        ads, or unnecessary distractions.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="#">Download on the App Store</a>
-        <a class="button secondary" href="#features">See features</a>
-      </div>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="#top" aria-label="My Sight Wordz home">
+        <span class="brand-mark">Wz</span>
+        <span class="brand-text">My Sight Wordz</span>
+      </a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#parents">For parents</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a class="button button-primary nav-cta" href="#download">Get the app</a>
     </div>
   </header>
 
-  <main>
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Simple reading practice</p>
+          <h1>Help your child practice sight words without the clutter.</h1>
+          <p class="hero-text">
+            My Sight Wordz gives families a calm, easy way to practice reading.
+            Build custom word lists, keep routines short, and focus on learning instead of distractions.
+          </p>
+          <div class="hero-actions" id="download">
+            <a class="button button-primary" href="#">Download on the App Store</a>
+            <a class="button button-secondary" href="#features">Explore features</a>
+          </div>
+          <ul class="hero-points" aria-label="Highlights">
+            <li>Custom sight word lists</li>
+            <li>Simple practice flow</li>
+            <li>No ads or noisy distractions</li>
+          </ul>
+        </div>
+
+        <div class="device-wrap" aria-label="App preview illustration">
+          <div class="device">
+            <div class="device-top"></div>
+            <div class="screen">
+              <div class="app-topbar">
+                <span class="chip chip-soft">Level 1</span>
+                <span class="dot-row">
+                  <span></span><span></span><span></span>
+                </span>
+              </div>
+              <div class="practice-card">
+                <p class="card-label">Today’s Word</p>
+                <div class="word-card">said</div>
+                <p class="card-note">Tap to flip. Read it together. Repeat calmly.</p>
+              </div>
+              <div class="list-preview">
+                <div class="mini-list-card">
+                  <strong>Core Words</strong>
+                  <span>25 words</span>
+                </div>
+                <div class="mini-list-card">
+                  <strong>School List</strong>
+                  <span>12 words</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="float-badge badge-1">Made for parents</div>
+          <div class="float-badge badge-2">Built for early readers</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section trust-strip">
+      <div class="container trust-grid">
+        <div>
+          <p class="trust-kicker">Why it stands out</p>
+          <h2>Designed to feel clear, calm, and easy to use.</h2>
+        </div>
+        <div class="trust-copy">
+          <p>
+            Many kids apps try to do too much. My Sight Wordz keeps the experience focused,
+            so parents can support reading practice with less friction.
+          </p>
+        </div>
+      </div>
+    </section>
+
     <section id="features" class="section">
       <div class="container">
-        <h2>Why parents use SightWordz</h2>
-        <div class="grid">
-          <article class="card">
-            <h3>Custom word lists</h3>
-            <p>Create or import lists that match your child’s learning level.</p>
+        <div class="section-heading">
+          <p class="eyebrow">Features</p>
+          <h2>Everything needed for a short, repeatable sight word routine.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Create custom lists</h3>
+            <p>Build lists that match schoolwork, homework, or your child’s current reading level.</p>
           </article>
-          <article class="card">
-            <h3>Simple practice flow</h3>
-            <p>Keep sessions short, predictable, and easy to repeat.</p>
+          <article class="feature-card">
+            <h3>Import and share lists</h3>
+            <p>Bring in saved lists and share them with other My Sight Wordz families.</p>
           </article>
-          <article class="card">
-            <h3>No junk</h3>
-            <p>No ads, no chaos, no unnecessary distractions.</p>
+          <article class="feature-card">
+            <h3>Simple, focused practice</h3>
+            <p>Short sessions help kids practice one word at a time without overload.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Friendly onboarding</h3>
+            <p>New parents get a guided walkthrough so the app feels easy from the start.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Built for repeated use</h3>
+            <p>Clean navigation and predictable actions help families come back consistently.</p>
+          </article>
+          <article class="feature-card">
+            <h3>No ad-heavy chaos</h3>
+            <p>The experience stays focused on learning instead of interruptions and noise.</p>
           </article>
         </div>
       </div>
     </section>
+
+    <section id="how-it-works" class="section section-alt">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">How it works</p>
+          <h2>A simple flow parents can repeat in minutes.</h2>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <span class="step-number">1</span>
+            <h3>Pick a word list</h3>
+            <p>Choose a built-in list or use one you created yourself.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">2</span>
+            <h3>Practice together</h3>
+            <p>Read, repeat, and move through words with a simple card-based routine.</p>
+          </article>
+          <article class="step-card">
+            <span class="step-number">3</span>
+            <h3>Keep sessions short</h3>
+            <p>Use calm, consistent practice instead of turning it into a battle.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="parents" class="section">
+      <div class="container parents-grid">
+        <div>
+          <p class="eyebrow">For parents and caregivers</p>
+          <h2>Built to support real life, not perfect routines.</h2>
+          <p>
+            Reading practice works better when it feels manageable. My Sight Wordz is designed for busy families who want a tool that is quick to learn and easy to keep using.
+          </p>
+          <p>
+            Whether you are reinforcing classroom lists, homeschooling, or helping a child build confidence, the app keeps the experience straightforward.
+          </p>
+        </div>
+        <aside class="quote-card">
+          <p class="quote">
+            “Keep it simple. Keep it calm. Keep it consistent.”
+          </p>
+          <p class="quote-caption">That is the core idea behind My Sight Wordz.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container section-heading center">
+        <p class="eyebrow">Who it helps</p>
+        <h2>Useful for kindergarten, first grade, second grade, and home practice.</h2>
+      </div>
+      <div class="container audience-grid">
+        <article class="audience-card">
+          <h3>Parents</h3>
+          <p>Support daily reading practice without hunting for flashcards or worksheets.</p>
+        </article>
+        <article class="audience-card">
+          <h3>Homeschool families</h3>
+          <p>Use custom lists to fit your own lesson pacing and word progression.</p>
+        </article>
+        <article class="audience-card">
+          <h3>Early readers</h3>
+          <p>Practice common words in a simple format that feels predictable and clear.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">FAQ</p>
+          <h2>Common questions</h2>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>What is My Sight Wordz?</summary>
+            <p>It is an iPhone app that helps children practice sight words through simple, repeatable routines and custom word lists.</p>
+          </details>
+          <details>
+            <summary>Who is it for?</summary>
+            <p>It is designed for parents, caregivers, homeschool families, and early elementary readers.</p>
+          </details>
+          <details>
+            <summary>Can I make my own lists?</summary>
+            <p>Yes. You can create, import, and share custom word lists to match how your child is learning.</p>
+          </details>
+          <details>
+            <summary>Does the app include a guided walkthrough?</summary>
+            <p>Yes. New users can go through an onboarding tour to quickly learn the home and word list screens.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-shell">
+        <div>
+          <p class="eyebrow">Ready to start?</p>
+          <h2>Make sight word practice simpler.</h2>
+          <p>Download My Sight Wordz and build a reading routine your child can stick with.</p>
+        </div>
+        <a class="button button-primary button-large" href="#">Download on the App Store</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark">Wz</span>
+          <span class="brand-text">My Sight Wordz</span>
+        </a>
+        <p class="footer-copy">Simple sight word practice for growing readers.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
