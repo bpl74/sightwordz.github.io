@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sightwordz.github.io/sitemap.xml
